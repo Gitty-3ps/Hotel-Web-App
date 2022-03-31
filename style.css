@@ -1,88 +1,11 @@
 
 
-html,
-body {
-	height: 100%;
-	font-family: "Taviraj", serif;
-	-webkit-font-smoothing: antialiased;
-	font-smooth: antialiased;
-	background: none;
+
+.carousel {
+    width:640px; height:360px; 
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	margin: 0;
-	font-weight: 500;
-	font-family: "Taviraj", serif;
+.loginbtn{
+    background-color: #373a36; 
+    border-color:#d48166;
 }
-
-h1 {
-	font-size: 70px;
-}
-
-h2 {
-	font-size: 36px;
-}
-
-h3 {
-	font-size: 30px;
-}
-
-h4 {
-	font-size: 24px;
-}
-
-h5 {
-	font-size: 18px;
-}
-
-h6 {
-	font-size: 16px;
-}
-
-p {
-	font-size: 16px;
-	font-family: "Open Sans", sans-serif;
-	font-weight: 400;
-	line-height: 28px;
-	margin: 0 0 15px 0;
-}
-
-img {
-	max-width: 100%;
-}
-
-input:focus,
-select:focus,
-button:focus,
-textarea:focus {
-	outline: none;
-}
-
-a:hover,
-a:focus {
-	text-decoration: none;
-	outline: none;
-	color: #081624;
-}
-
-ul,
-ol {
-	padding: 0;
-	margin: 0;
-}
-
-[class^=flaticon-]:before,
-[class*=" flaticon-"]:before,
-[class^=flaticon-]:after,
-[class*=" flaticon-"]:after {
-	font-family: Flaticon;
-	font-size: 40px;
-	font-style: normal;
-}
-
-

@@ -32,13 +32,13 @@
 							<a class="nav-link" href="services.php">SERVICES</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="offers.php">OFFERS</a>
+							<a class="nav-link active" aria-current="page" href="offers.php">OFFERS</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="about.php">ABOUT US</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="contact.php">CONTACT US</a>
+							<a class="nav-link" href="contact.php">CONTACT US</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" button type="button" href="login.php" class="btn btn-primary" style="background-color: 	#d9e2ef; color:#000000;">Login/Sign Up</button></a>
@@ -47,38 +47,22 @@
 				</div>
 			</div>
 		</nav>
-
-		<div class="container-sm">
-		<h2>Musella Hotel</h2>
-		<br />
-		<h3>Login</h3>
-		<br /> 
-        
-		<form method="POST" action="<?php echo htmlentities( $_SERVER['PHP_SELF']); ?>">
-		<div class="form-group row">
-				<div class="col-md-4">
-					<input type="text" name="uname" class="form-control" placeholder="Enter Username">
-					
-					<br /><br />
-					<input type="email" name="email" class="form-control" placeholder="Enter email">
-					
-					<br /><br />
-					<textarea name="subject" class=" form-control" placeholder="Type message subject" rows="1" cols="33"></textarea>
-					<br /><br />
-					<label for="message"><strong>Tell us</strong></label>
-					<textarea  name="message" class=" form-control" placeholder="Type your messaege here" rows="5" cols="33"></textarea>
-					<br /><br/>
-					
-					<input type="submit" class="btn btn-primary btn-lg" name="submit" value="Submit Form" required>
-					<br /><br />
-					<p>Don't have an account? <a href="register.php">Register today</a>.</p>
-				</div>
-			</div>
-		</form>
       
-	</div>
+    <!-- <nav class=" pt-10 navbar nav nav-pills nav-fill bg-dark">
+  <a class="nav-link"  href="#">Active</a>
+  <a class="nav-link" href="#">Much longer nav link</a>
+  <a class="nav-link" href="#">Link</a>
+  <a class="nav-link disabled">Disabled</a>
+    </nav> -->
 
-		
+
+
+
+      <!-- <div class="containerr">
+        <div class="row">
+          <div class="col-sm-8  bg-warning">Hello</div>
+        </div> -->
+
      
       
 
