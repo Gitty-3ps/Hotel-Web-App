@@ -15,7 +15,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <!--Finalize title & add favicon to site (logo)-->
-        <title>Services</title>
+        <title>Musella Hotel | Services</title>
         <SCRIPT LANGUAGE="JavaScript"> //Allow to only go forward
         history.forward()
         </SCRIPT>
